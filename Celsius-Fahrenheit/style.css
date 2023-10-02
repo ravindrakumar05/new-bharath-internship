@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #e5e5fd;
+}
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.heading{
+    font-size: 35px;
+    margin: 25px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.CtoF input, button{
+    padding:10px;
+}
+.CtoF{
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
